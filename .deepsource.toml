@@ -19,16 +19,7 @@ name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  environment = [
-    "nodejs",
-    "mocha",
-    "browser",
-    "jquery"
-  ]
-  plugins = [
-    "react",
-    "angularjs"
-  ]
+  environment = ["nodejs"]
 
 [[analyzers]]
 name = "java"
